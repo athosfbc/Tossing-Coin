@@ -1,0 +1,72 @@
+
+body {
+    text-transform: uppercase;
+    font-family: 'Bowlby One SC', cursive;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    align-content: center;
+    text-align: center;
+    padding: 3px;
+}
+
+.topSide {
+    text-transform: uppercase;
+}
+
+.middleSide {
+    margin-top: 15px;
+    align-content: center;
+}
+
+#faces {
+    visibility: hidden;
+    position: relative;
+}
+
+#flipping {
+    visibility: hidden;
+    position: relative;
+}
+
+#crowns {
+    visibility: hidden;
+    position: relative;
+}
+
+#tossIt {
+    position: 0;
+}
+
+.bottomSide {
+    margin-top: 1px;
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+ }
+
+ #coin-1 {
+     visibility: hidden;
+ }
+
+ #coin-2 {
+    visibility: hidden;
+}
+
+#coin-3 {
+    visibility: hidden;
+}
+
+#clearLabel {
+    font-size: 11px;
+    color: #d2dce6;
+    font-weight: lighter;
+}
+
+#warning {
+    font-size: 11px;
+    visibility: hidden;
+}

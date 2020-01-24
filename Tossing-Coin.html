@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="styleSheet" href="./CSS/Tossing-Coin.css">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+  
+<!--Title/Head-->
+    
+ <h1 class="title">Can't you decide?</h1>
+    
+ <h2 class="title2">Go ahead! Toss it!</h2>
+
+<!--Main-->
+
+ <div class="flippingContent">
+
+<!--Top-->
+
+ <div class="topSide">
+
+     <form class="topSide">
+
+         <img src="http://www.parkquarters.com/wp-content/uploads/2009/11/Park-Quarter-Obverse-Design-199x200.jpg" alt="Quarter face" class="topSide" id="facesTop" width="20" height="20">
+         
+         <input type="text" class="topSide" id="option-1" value="">
+
+     </form>
+
+ </div>
+
+<!--Middle-->
+
+ <div class="middleSide" id="middleSide">
+     
+     <input id="tossIt" type="image" src="http://www.parkquarters.com/wp-content/uploads/2009/11/Park-Quarter-Obverse-Design-199x200.jpg" onclick="Tossed()" width="100" height="100">
+ 
+ </div>
+
+<!--Bottom-->
+
+ <div class="bottomSide">
+
+     <form class="bottomSide">
+
+         <input type="text" class="bottomSide" id="option-2" value="">
+
+         <img src="https://www.gannett-cdn.com/presto/2020/01/10/PCIN/5cd417e4-93f5-4d04-adce-57b15c684dd4-2020-america-the-beautiful-quarters-coin-national-park-of-american-samoa-proof-reverse.jpg?width=540&height=&fit=bounds&auto=webp" alt="Quarter crown" class="bottomSide" id="crownsBottom" width="20" height="20">
+     
+     </form>
+
+ </div>
+
+<!--Results-->
+
+ <div class="results">
+
+     <h1>Lucky gave you:</h1>
+
+     <img class="results" id="box-out" src="https://d33wjekvz3zs1a.cloudfront.net/wp-content/uploads/2017/06/US-coin-Spin.gif" width="100" height="100"></img>
+
+     <p class="results" id="box-option"></p>
+
+     <p class="results" id="box-result"></p>
+
+     <h2>Toss again for a "best of three"</h2>
+
+<!--3 Coins-->
+
+<div id="banner">
+ <div class="inline-block">
+     <img src ="" id="coin-1" width="75" height="75">
+ </div>
+
+ <div class="inline-block">
+     <img src ="" id="coin-2" width="75" height="75">
+ </div>
+
+ <div class="inline-block">
+     <img src ="" id="coin-3" width="75" height="75">
+ </div>
+</div>
+
+<!--Final Suggestion-->
+<div class="finalSuggestion" id="finalSuggestion">
+        
+        <p class="finalSuggestion" id="box-option-final"></p>
+
+        <p class="finalSuggestion" id="box-result-final"></p>
+
+        <p class="finalSuggestion" id="warning">Wait 10 seconds to clear the game or press the button bellow</p>
+</div>
+
+<!--Clear Button-->
+
+<div class="clear" id="clear">
+    <label id="clearLabel">Clear</label>
+    <br>
+    <input type="image" class="clear" id="clear" src="https://cardinalcollectibles.com/wp-content/uploads/2019/03/us-quarter.jpg" onclick="Init()" width="30" height="30">
+</div>
+
+ </div>
+
+</div>
+</div>
+
+    <script src="./JS/Tossing-Coin.js"></script>
+</body>
+</html>
